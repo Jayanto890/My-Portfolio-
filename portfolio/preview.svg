@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="19px" viewBox="0 0 25 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>email</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#85FC6D" offset="0%"></stop>
+            <stop stop-color="#0AD31A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Filled" transform="translate(-100.000000, -303.000000)" fill="url(#linearGradient-1)">
+            <g id="email" transform="translate(100.000000, 303.000000)">
+                <path d="M9.755,9.809 C10.474,10.582 11.447,11.008 12.5,11.008 C13.553,11.008 14.526,10.582 15.244,9.811 L24.231,0.199 C24.014,0.076 23.767,0 23.5,0 L1.5,0 C1.234,0 0.986,0.077 0.77,0.199 L9.755,9.809 Z M24.143,18.85 C23.947,18.944 23.731,19 23.5,19 L1.5,19 C1.27,19 1.053,18.944 0.858,18.85 L6.854,12.854 C7.049,12.659 7.049,12.342 6.854,12.147 C6.658,11.952 6.342,11.952 6.147,12.147 L0.151,18.143 C0.057,17.948 0,17.731 0,17.5 L0,1.5 C0,1.307 0.04,1.123 0.107,0.954 L9.024,10.491 C9.919,11.455 11.186,12.008 12.5,12.008 C13.815,12.008 15.081,11.455 15.976,10.493 L24.894,0.955 C24.96,1.123 25,1.307 25,1.5 L25,17.5 C25,17.731 24.943,17.948 24.85,18.143 L18.854,12.147 C18.658,11.952 18.342,11.952 18.147,12.147 C17.951,12.342 17.951,12.659 18.147,12.854 L24.143,18.85 Z" id="Fill-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

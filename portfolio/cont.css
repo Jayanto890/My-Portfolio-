@@ -1,0 +1,250 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+   
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+h1, h2, h3 {
+    font-family: "Montserrat", sans-serif;
+}
+.nav-bar{
+  
+    background-color:  rgb(1, 1, 89) ;
+    text-align: center;
+    justify-content: center;
+    overflow: auto; 
+}
+
+ul{
+float: inline-start;
+list-style: none;
+text-decoration: none;
+
+}
+ul li{
+    
+    float: left;
+    margin: 7px;
+    padding: 13px;
+    font-size: 25px;
+}
+ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+ul li a:hover{
+    font-size:1.7rem;
+   color: rgb(149, 243, 8);
+}
+
+ul h1{
+    font-family: "Montserrat", sans-serif;
+    color: aliceblue;
+    float: right;
+    margin: 19px;
+    padding-bottom: 0px;
+    cursor: pointer;
+}
+ul h1:hover{
+    font-size:xx-large;
+    color: rgb(149, 243, 8);
+}
+
+
+.search{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   float: right;
+   color: whitesmoke;
+   margin: 26px 45px 21px;
+   font-size: large;
+}
+.search:hover{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+
+
+main{
+    background-color: rgb(207, 207, 246);
+}
+
+
+
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Center items vertically */
+    width: 100%;
+}
+
+.left {
+    width: 100%;
+    position: relative; /* Set position to relative */
+    display: flex;
+    flex-direction: column; /* Stack form and image vertically */
+    align-items: center; /* Center items horizontally */
+    background-color: rgba(66, 208, 255, 0.923);
+    margin: 20px;
+    border-radius: 15px;
+}
+
+form {
+    font-size: 2rem;
+    margin: 15px 4px 15px -47vw;
+    background: white;
+    padding: 2vw 4vw;
+    width: 30%; /* Adjust the width of the form */
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.left .background {
+    position: absolute; /* Set position to absolute */
+    top: 0; /* Position at the top */
+    right: -19%; /* Adjust the distance from the right */
+    width: 40%; /* Adjust the width of the image div */
+    
+}
+
+.left .background img {
+    margin: 15px 4px 15px -35svw;
+    width: 100%; /* Ensure the image fills its container */
+    height: 78.4vh;; /* Maintain aspect ratio */
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
+
+form h3{
+    color: #555 ;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+form input, form textarea{
+width: 90%;
+border: 0;
+margin: 10px 0;
+padding: 20px;
+outline: none;
+background: gainsboro;
+font-size: 16px;
+border-radius: 40px;
+}
+
+
+.button-container {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    list-style: none;
+  
+  
+  }
+  
+  
+  .button-container .contact-button{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: -30px 10px 10px;
+   }
+
+.button-container  .download-button{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 30px;
+
+}
+  
+ 
+  .contact-button {
+    background-color: #007bff; 
+    
+  }
+  
+  
+  .contact-button:hover{
+    opacity: 0.8;
+  }
+  
+
+
+
+
+.footer{
+align-items: center;
+justify-content: space-around;
+height: auto;
+background-color:  rgb(200, 197, 197);
+}
+
+.footer-First{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    font-size: 30px;
+    background-color: #e1dffd;
+    margin: 0 2px;
+    color: rgba(12, 12, 247, 0.945);
+}
+
+.footer-second{
+  list-style: none;
+  display: flex;
+  background-color: RGB(111, 145, 150);
+  align-items: center;
+  justify-content: center;
+  margin: 20px 20px 2px;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  
+
+}
+.footer-second ul :first-child{
+    font-size: 30px;
+    padding: 0.5rem;
+    color: black;
+}
+
+.bottom{
+    color: rgb(212, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(7, 1, 12);
+    font-size: 25px;
+}
+
+
+
+
